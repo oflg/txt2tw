@@ -1,1 +1,3 @@
-# txt2tw
+# 单词源
+
+https://github.com/kajweb/dict
