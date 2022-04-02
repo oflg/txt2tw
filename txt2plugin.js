@@ -260,7 +260,7 @@ caption: ${bookInfoArry.title}`;
         var tid = `title: ${title}
 word: ${word}
 tags: ?
-caption: {{||$:/plugins/oflg/fishing-cannedfish-${bookName}/Question}}
+caption: {{||$:/plugins/oflg/fishing-cannedfish-${bookName}/Word}}
 created: ${created}
 transCn: ${transCn}
 `;
