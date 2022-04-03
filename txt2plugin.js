@@ -71,7 +71,7 @@ for (var bn = 0; bn < books.length; bn++) {
     var readmeMeta = `title: $:/plugins/oflg/fishing-cannedfish-${bookName}/readme
 type: text/vnd.tiddlywiki`;
 
-    var caption = `title: $:/plugins/oflg/fishing-cannedfish-${bookName}/Question
+    var caption = `title: $:/plugins/oflg/fishing-cannedfish-${bookName}/Word
 
 <style>
     .wordtip svg {
@@ -210,7 +210,7 @@ caption: ${bookInfoArry.title}`;
         }
     });
 
-    fs.writeFile(pluginsPath + "/fishing-cannedfish-" + bookName + "/Question" + ".tid", caption, err => {
+    fs.writeFile(pluginsPath + "/fishing-cannedfish-" + bookName + "/Word" + ".tid", caption, err => {
         if (err) {
             return console.log(err);
         }
