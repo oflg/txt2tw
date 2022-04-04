@@ -66,7 +66,7 @@ for (var bn = 0; bn < books.length; bn++) {
 
 此学习包共有 ${bookInfoArry.wordNum} 个来源于${bookInfoArry.bookOrigin.originName}的单词。${bookInfoArry.introduce}
 
-可在 [[钓鱼手册|https://oflg.github.io/fishing-manual/#安装:安装%20鱼罐头子插件]] 查看安装使用教程。`;
+可在[[墨屉手册|https://tiddlymemo.org/manual/zh-Hans]]查看安装使用教程。`;
 
     var readmeMeta = `title: $:/plugins/oflg/fishing-cannedfish-${bookName}/readme
 type: text/vnd.tiddlywiki`;
