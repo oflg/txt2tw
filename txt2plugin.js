@@ -53,13 +53,13 @@ for (var bn = 0; bn < books.length; bn++) {
     var pluginInfo = `{
     "title": "$:/plugins/oflg/fishing-cannedfish-${bookName}",
     "author": "oflg",
-    "core-version": ">=5.2.1",
+    "core-version": ">=5.2.2",
     "description": "${bookInfoArry.title}",
     "list": "readme",
     "name": "学习包",
     "plugin-type": "plugin",
     "source": "https://github.com/oflg/fishing-manual",
-    "version": "0.0.4"
+    "version": "0.1.0"
 }`;
 
     var readme = `[img height=200 [${bookInfoArry.cover}]]
