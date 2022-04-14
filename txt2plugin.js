@@ -58,8 +58,8 @@ for (var bn = 0; bn < books.length; bn++) {
     "list": "readme",
     "name": "学习包",
     "plugin-type": "plugin",
-    "source": "https://github.com/oflg/fishing-manual",
-    "version": "0.1.0"
+    "source": "https://github.com/oflg/TiddlyMemo",
+    "version": "0.1.1"
 }`;
 
     var readme = `[img height=200 [${bookInfoArry.cover}]]
