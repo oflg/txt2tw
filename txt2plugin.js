@@ -59,7 +59,7 @@ for (var bn = 0; bn < books.length; bn++) {
     "name": "学习包",
     "plugin-type": "plugin",
     "source": "https://github.com/oflg/TiddlyMemo",
-    "version": "0.1.1"
+    "version": "0.1.2"
 }`;
 
     var readme = `[img height=200 [${bookInfoArry.cover}]]
@@ -72,6 +72,7 @@ for (var bn = 0; bn < books.length; bn++) {
 type: text/vnd.tiddlywiki`;
 
     var caption = `title: $:/plugins/oflg/fishing-cannedfish-${bookName}/Word
+code-body: yes
 
 <style>
     .wordtip svg {
